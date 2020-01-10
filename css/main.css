@@ -3,10 +3,6 @@ html {
   color: #fff;
 }
 
-img {
-  max-height: 500px;
-}
-
 .blue {
   background-color: #495562;
 }
@@ -32,6 +28,16 @@ img {
 
   header {
     position: relative;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .no-margins {
+    margin-bottom: 0;
+  }
+
+  .padding {
+    padding-bottom: 1.7%;
   }
 
   .blue {
@@ -41,6 +47,14 @@ img {
     right: 0;
     background-color: transparent;
     background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+  }
+
+  .btn {
+    border-color: #fff;
+  }
+
+  .btn-box {
+    text-align: right;
   }
 
 }
