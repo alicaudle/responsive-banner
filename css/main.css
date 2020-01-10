@@ -1,5 +1,5 @@
 html {
-  font-family: Georgia;
+  font-family: Georgia, serif;
   color: #fff;
 }
 
@@ -26,4 +26,21 @@ img {
 
 .btn-ghost:hover {
   border-color: #efefef;
+}
+
+@media only screen and (min-width: 60em) {
+
+  header {
+    position: relative;
+  }
+
+  .blue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+  }
+
 }
